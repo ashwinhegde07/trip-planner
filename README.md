@@ -100,5 +100,4 @@ The frontend is fully configured for deployment on Vercel. A `vercel.json` file 
 4. Set the Start Command: `gunicorn config.wsgi:application --bind 0.0.0.0:$PORT`
 5. Add the appropriate environment variables (`DB_URL`, `ALLOWED_HOSTS`, `CORS_ALLOWED_ORIGINS`, etc.).
 
----
-*Developed for the IMapper Assessment.*
+
